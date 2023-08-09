@@ -1,0 +1,4 @@
+[Bb]uild/
+profile.json
+*-profile.json
+*.log

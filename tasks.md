@@ -1,0 +1,3 @@
+- [ ] Re-enable Avoid Magic Numbers check (`.clang-tidy`)
+- [x] Work out why I can't use `SDL_WINDOWPOS_CENTERED`
+    - Disabled `hicpp-signed-bitwise`
