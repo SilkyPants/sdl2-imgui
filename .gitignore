@@ -1,4 +1,23 @@
+# Ignore build files
 [Bb]uild/
+[Dd]ebug/
+_deps/
+
+# Profiling and logging
 profile.json
 *-profile.json
 *.log
+
+# CMake files
+**/CMakeFiles/**
+**/cmake_install.cmake
+CMakeCache.txt
+
+# Generated VS files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Ignore ImGui preference file
+**/imgui.ini
